@@ -32,6 +32,8 @@ Visual + contextual reasoning
 General AI chatbot queries
 
 
+
+
 ⚠️ Notes
 Do not upload sensitive or private data
 
