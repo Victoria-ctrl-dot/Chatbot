@@ -1,3 +1,46 @@
+🤖 Personal AI Assistant (Streamlit)
+
+
+
+An interactive AI-powered web app built with Streamlit that can analyse text, images, or both.
+
+
+🚀 Features
+
+📝 Text-based queries and instructions
+
+🖼️ Image upload and analysis
+
+🔀 Combined text + image reasoning
+
+⚡ Fast responses using Gemini 2.5 Flash
+
+🔐 Secure API key handling via .env
+
+🛠️ Tech Stack
+Python
+Streamlit
+Pillow (Image Processing)
+Python-dotenv
+
+📸 Use Cases
+
+Image description & interpretation
+
+Visual + contextual reasoning
+
+General AI chatbot queries
+
+
+⚠️ Notes
+Do not upload sensitive or private data
+
+
+
+
+
+
+
 
 <img width="1797" height="1062" alt="Screenshot 2026-04-28 142234" src="https://github.com/user-attachments/assets/027e72ae-de34-4f4f-bf22-971b44490af9" />
 <img width="1828" height="1068" alt="Screenshot 2026-04-28 142658" src="https://github.com/user-attachments/assets/069dff5d-a11f-4445-adb3-abf7fbc7eacd" />
