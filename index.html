@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mood Mate prototype</title>
+  <style>
+    :root{font:16px/1.5 system-ui,sans-serif;color:#24332f;background:#f5f8f5}*{box-sizing:border-box}body{margin:0}header,main,footer{max-width:900px;margin:auto;padding:1rem}header{display:flex;flex-wrap:wrap;align-items:center;gap:1rem;border-bottom:1px solid #cadbd2}h1{margin:0;font-size:1.55rem}nav{display:flex;flex-wrap:wrap;gap:.4rem}button,input,select,textarea{font:inherit}button{cursor:pointer;border:1px solid #286c60;border-radius:.55rem;background:#fff;color:#195348;padding:.55rem .8rem}button.primary{background:#176758;color:white}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #ee9e45;outline-offset:2px}button[aria-current=page]{background:#d3ece2}section{background:white;border:1px solid #d5e2da;border-radius:1rem;padding:1.2rem;margin:1rem 0}label{display:block;font-weight:650;margin:.9rem 0 .25rem}input,select,textarea{width:100%;padding:.55rem;border:1px solid #6a8279;border-radius:.45rem}textarea{min-height:6rem}small,.muted{color:#4c6159}.error{color:#9a2525;font-weight:650}.actions{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.2rem}.entry{border-top:1px solid #ddd;padding:.8rem 0}.entry:first-of-type{border:0}.pill{display:inline-block;border-radius:1rem;background:#e4f2ea;padding:.15rem .6rem}footer{font-size:.9rem}.danger{border-color:#a12b2b;color:#8c1d1d}fieldset{border:1px solid #9bb4a7;border-radius:.6rem;margin:1.2rem 0;padding:.8rem}legend{font-weight:650}.image-choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(105px,1fr));gap:.6rem}.image-choice{margin:0;text-align:center;border:2px solid #cadbd2;border-radius:.65rem;padding:.4rem;cursor:pointer}.image-choice:has(input:checked){border-color:#176758;background:#e4f2ea}.image-choice:has(input:focus-visible){outline:3px solid #ee9e45}.image-choice input{width:auto}.image-choice img{display:block;width:80px;height:80px;margin:.25rem auto}.history-image{width:64px;height:64px;vertical-align:middle;margin:.4rem}
+  </style>
+</head>
+<body>
+  <header><h1>Mood Mate</h1><nav aria-label="Main navigation"><button data-route="home">Home</button><button data-route="entry">Record mood</button><button data-route="history">History</button><button data-route="trends">Trends</button><button data-route="quotes">Quotes</button><button data-route="support">Get support</button><button data-route="about">About &amp; data</button></nav></header>
+  <main id="app" tabindex="-1"></main><footer>Mood Mate is for self-reflection. It does not diagnose conditions or replace professional support.</footer>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
